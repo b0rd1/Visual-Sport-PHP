@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #252830, #1c1e24);
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.container {
+  border: 1px solid lightgrey;
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  display: none;
+}
+
+.container.active {
+  display: flex;
+}
+
+.error {
+  display: none;
+  color: red;
+  text-align: center;
+}
+
+img {
+  height: 100%;
+}
+
+.container div {
+  text-align: center;
+  padding: 15px 0 0;
+  margin: 0 auto;
+}
+
+.area {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.lista1 {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.randomPlayer {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.barra {
+  border-radius: 3px;
+  justify-content: center;
+  display: flex;
+  background: white;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+button {
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  border: 0px;
+  padding: 15px;
+  border-radius: 2px;
+  background: white;
+  outline: none;
+}
+
+.text {
+  outline: none;
+  resize: none;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 2px;
+  border: 0;
+}
