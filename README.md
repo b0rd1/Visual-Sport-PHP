@@ -1,6 +1,6 @@
 <b># Visual-Sport-PHP</b>
 
-Versione scritta in Plain PHP originariamente fatta in Javascript.
+<i>Versione scritta in Plain PHP originariamente fatta in Javascript.</i>
 
 Il database è scritto in locale e generato automaticamente ad ogni refresh della pagina.
 
