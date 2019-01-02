@@ -1,4 +1,4 @@
-<b># Visual-Sport-PHP</b>
+# Visual-Sport-jQuery
 
 <i>Versione scritta in Plain PHP originariamente fatta in Javascript.</i>
 
